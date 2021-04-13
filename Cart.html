@@ -1,0 +1,133 @@
+<This is the first attempt on how to build a blog website>
+<!doctype HTML>
+<html>
+<head>
+    <title>CART</title>
+    <link rel="stylesheet" href="style blog.css">
+    <script src="Cart.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+    <div id="header">
+        <div class="container">
+            <a id="header-title" href="First Blog.html">My Blog</a>
+            <ul id="header-nav">
+                <li><a href="about me.html">About</a></li>
+                <li><a href="mailto:marco.doro1@gmail.com">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+        <div id="content">
+            <div class="container">
+                <div class="cart">
+                    <div class="cart-author">
+                        <figure>
+                        <img id="superman" src="/Users/marcotalet4gig/Documents/Coding/images/eva_solo_champagneglas_coupe_nw.jpg">
+                        <figcaption>Superman!!!</figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                      <aside>
+                          <p>It's really hard try to become a Web Developer.</p>  
+                          <form>
+                              <label for="fname">First name:</label><br>
+                              <input type="text" id="fname" name="fname"><br>
+                              <label for="lname">Last name:</label><br>
+                              <input type="text" id="lname" name="lname"><br>
+                              <input type="radio" id="newsletter" name="services" value="newsletter">
+                              <label for="male">Newsletter</label>
+                              <input type="radio" id="blog" name="services" value="blog">
+                              <label for="male">Blog</label><br>
+                              <input type="checkbox" id="demo" name="services" value="demo">
+                              <label for="male">Demo</label><br>
+                              <input type="submit" value="Submit">
+                          </form>
+                      </aside>
+                  </div>   
+                    <h1 class="cart-title">About Me</h1>
+                    <div class="cart-content">
+                        <p>Number of items into the Cart: id="itemCounter">O</p>
+                        <button onclick="clickCart()">Show Total</button>
+                        <p id="orderTotal"></p>
+                        <p id="shippingTotal"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+  <div class="search"></div>
+        <table id="t01">
+            <caption>Tabella test</caption>
+            <thead>
+              <tr>
+                <th>Company Name</th>
+                <th>Number of Items to Ship</th>
+                <th>Next Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Adam's Greenworks</th>
+                <td>14</td>
+                <td>Package Items</td>
+              </tr>
+              <tr>
+                <td>Davie's Burgers</th>
+                <td>2</td>
+                <td>Send Invoice</td>
+              </tr>
+              <tr>
+                <td>Baker's Bike Shop</th>
+                <td>3</td>
+                <td>Send Invoice</td>
+              </tr>
+              <tr>
+                <td>Miss Sally's Southern</th>
+                <td>4</td>
+                <td>Ship</td>
+              </tr>
+              <tr>
+                <td>Summit Resort Rentals</th>
+                <td>4</td>
+                <td>Ship</td>
+              </tr>
+            </tbody>
+              <tr>
+                <td>Strike Fitness</th>
+                <td>1</td>
+                <td>Enter Order</td>
+              </tr>
+            <tfoot>
+              <tr>
+                <td>Prova somma</th>
+                <td>1</td>
+                <td>Enter Order</td>
+              </tr> 
+            </tfoot>               
+          </table>
+          <br>
+    <div id="footer">
+        <div class="container">
+            <div class="column">
+                <h4 id="footer-title">My Links</h4>
+                <p>
+                    <a href="https://twitter.com">Twitter</a>
+                    <br>
+                    <a href="https://facebook.com">Facebook</a>
+                </p>
+            </div>
+            <div class="column">
+                <h4>My Story</h4>
+                <p>Hi there! I'm an aspiring web developer.</p>
+            </div>
+            <div class="column">
+                <h4 class="address">Address</h4>
+                <address class="address">
+                    Via del canvetto, 1<br>
+                    6900, Lugano - CH
+                </address>
+            </div>
+        </div>
+    </div>
+
+</body>
+</head>
+</html>
